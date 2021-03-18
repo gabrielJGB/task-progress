@@ -1,16 +1,16 @@
 {
-    "name": "Name",
-    "short_name": "Short name",
+    "name": "Task progress",
+    "short_name": "Task progress",
     "start_url": "index.html",
     "scope": "./",
     "icons": [
       {
-        "src": "img/icon-192x192.png",
+        "src": "images/app-icon.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "img/icon-512x512.png",
+        "src": "images/app-icon.png",
         "sizes": "512x512",
         "type": "image/png"
       }

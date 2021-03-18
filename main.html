@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase.js"></script>
+    <title>Task Progress</title>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h3 class="title">Task progress</h3>
+        <button class="log-out-button">Log out</button>
+    </div>
+
+    <div class="container">Cargando...</div>
+
+    <div class="modal">
+        <div class="form-window">
+            <div class="form-window-title">Add an item</div>
+            <label>Item title</label>
+            <input id="title" type="text">
+            <label>Max value</label>
+            <input id="max-value" type="number">
+            <div class="form-buttons">
+                <button class="cancel-button">Cancel</button>
+                <button class="accept-button">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="add-item-button">+</button>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>

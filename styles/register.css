@@ -3,17 +3,19 @@
     padding:0;
     font-family: 'Rubik';
 }
+
 body{
     background-color: rgb(65, 65, 65);
 }
 .main-container{
+    
     display:flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
 }
 
-.access-form{
+.register-form{
     width:250px;
     display: flex;
     flex-direction: column;
@@ -24,8 +26,12 @@ body{
     padding:20px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.945);
 }
+.title{
+    font-size: 22px;
+}
 
-.access-form input{
+
+.register-form input{
     font-size: 14px;
     padding:7px;
     border:solid 1px gray;
@@ -33,15 +39,12 @@ body{
     outline: none;
 }
 
-.access-form input:focus{
+.register-form input:focus{
     border:1px solid rgb(0, 0, 0);
 }
 
-.title{
-    font-size: 22px;
-}
 
-.access-button{
+.register-button{
     width:100%;
     border:0;
     border-radius: 3px;
@@ -52,9 +55,10 @@ body{
     cursor: pointer;
 }
 
-.access-button:hover{
+.register-button:hover{
     background-color: rgb(0, 0, 0);
 }
+
 
 .error-message{
     color: red;
