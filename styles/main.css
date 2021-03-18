@@ -8,6 +8,10 @@ body{
     background-color: rgb(65, 65, 65);
 }
 
+label{
+    align-self: start;
+}
+
 .title{
     font-weight: 200;
     font-size: 21px;
@@ -51,7 +55,6 @@ body{
 .item {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
     width: 50%;
     color:black;
     background-color: rgba(255, 255, 255, 0.76);
@@ -64,6 +67,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom:10px
 }
 
 .bar {
@@ -97,6 +101,7 @@ body{
 }
 
 .item-options-show{
+    margin-top:15px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -162,7 +167,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:10px;
     border-radius: 3px;
     background-color: rgba(230, 230, 230, 0.966);
     padding:20px;
@@ -176,10 +180,12 @@ body{
     border:solid 1px gray;
     border-radius: 3px;
     outline: none;
+    margin-bottom: 15px;
 }
 
 .form-window-title{
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .form-buttons{
