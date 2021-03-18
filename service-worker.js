@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["README.md","89fa7223244665da7c29291f77ca9563"],["images/app-icon.png","f221546ec773641d3e03b0509b7b4d39"],["index.html","9db0fc19fdd24d77bcd13027921f20ae"],["main.html","62731e8f49a87a86a2b44dc7a107a47f"],["manifest.json","4d1440f9546f351fd7b1ace2902ea46e"],["register.html","73d6aed1bad55069c3b14f98acd6101b"],["src/index.js","8d1a02dc35b2255406c0b41c7345a960"],["src/main.js","504871f9fe3bdd565d958bdcc1f124ac"],["src/register.js","5ffe5846ea2f406391ac37f247423658"],["styles/index.css","05cb66af70e8444b1d462e08d65713c1"],["styles/main.css","ea4f03e31cdb6bbf4c8dfe8330d015d7"],["styles/register.css","532c09a714a718fe62158e8ce915ace3"]];
+var precacheConfig = [["README.md","740b07385b3de1a9fa2158028ca5aa06"],["images/app-icon.png","f221546ec773641d3e03b0509b7b4d39"],["index.html","f6b376ea5c8359e6460c1651fd63a9cd"],["index.js","8d1a02dc35b2255406c0b41c7345a960"],["main.html","e01d2605e66df093c640ca1518110efa"],["main.js","504871f9fe3bdd565d958bdcc1f124ac"],["manifest.json","4d1440f9546f351fd7b1ace2902ea46e"],["register.html","c2a58b68e8e894334a356d05405c0b2c"],["register.js","5ffe5846ea2f406391ac37f247423658"],["styles/index.css","05cb66af70e8444b1d462e08d65713c1"],["styles/main.css","ea4f03e31cdb6bbf4c8dfe8330d015d7"],["styles/register.css","532c09a714a718fe62158e8ce915ace3"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
