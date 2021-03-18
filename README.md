@@ -1,3 +1,3 @@
 # task-progress
 
-LIVE:  https://gabrieljgb.github.io/task-progress/
+LIVE:  https://taskprogress.vercel.app/
